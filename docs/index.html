@@ -1,1 +1,112 @@
-<h1>更新測試</h1>
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>我的第一個網頁</title>
+
+    <!-- 引入可愛風格中文字體 -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=ZCOOL+KuaiLe&display=swap"
+      rel="stylesheet"
+    />
+
+    <style>
+      body {
+        background-color: #f3e8ff;
+        color: #4b0082;
+        font-family: "ZCOOL KuaiLe", sans-serif;
+        text-align: center;
+        padding: 40px;
+      }
+
+      .intro {
+        font-size: 20px;
+        margin-bottom: 30px;
+      }
+
+      .image-row {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 40px;
+      }
+
+      .image-block {
+        max-width: 300px;
+      }
+
+      .image-block img {
+        width: 100%;
+        border: 4px solid #d8b4fe;
+        border-radius: 10px;
+        transition: transform 0.3s;
+      }
+
+      .image-block img:hover {
+        transform: scale(1.05);
+      }
+
+      .caption {
+        margin-top: 10px;
+        font-size: 16px;
+        line-height: 1.4;
+      }
+
+      h1 {
+        font-size: 36px;
+        margin-bottom: 20px;
+      }
+
+      .icon {
+        width: 50px;
+        cursor: pointer;
+        margin-top: 40px;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>歡迎來到我的網站！</h1>
+
+    <div class="intro">
+      你好，我是金城國中的老師，歡迎來到我的網站。<br />
+      Ta̍k-ke hó! Guá sī Kim-siânn Kok-tiong ê lāu-su, huan-gîng lín lâi
+      tsham-kuan guá ê bāng-tiám.
+    </div>
+
+    <d class="image-row">
+      <!-- 金城國中校門 -->
+      <div class="image-block">
+        <a href="page2.html">
+          <img src="images/金城國中校門.jpg" alt="金城國中校門" />
+        </a>
+        <div class="caption">
+          點選金城國中校門的圖片，可以看到我們班的學生。
+        </div>
+      </div>
+
+      <!-- 成大台文系館 -->
+      <div class="image-block">
+        <a href="page4.html">
+          <img src="images/成大台文系館.jpg" alt="成大台文系館" />
+        </a>
+        <div class="caption">
+          點選成大台文系館的圖片，可以閱讀我的台語專班作業。
+        </div>
+      </div>
+
+      <!-- 我的信念 -->
+      <div class="image-block">
+    <a href="page7.html">
+        <img src="images/我的信念.jpg" alt="我的信念" />
+    </a>
+    <div class="caption">
+        點選這張代表我信念的圖片，可以看到我的自我學習與成長歷程。
+    </div>
+</div>
+
+    <!-- 小圖示：前往第二頁 -->
+    <a href="page2.html">
+      <img src="images/next_page_icon.png" alt="前往第二頁" class="icon" />
+    </a>
+  </body>
+</html>

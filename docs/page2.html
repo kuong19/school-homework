@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>第二頁</title>
+    <style>
+      .image-container {
+        display: flex;
+        justify-content: space-around;
+        gap: 20px;
+      }
+      .image-container img {
+        width: 600px;
+        cursor: pointer;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>這是第二頁</h1>
+    <p>你點了首頁的圖片，成功來到這裡。</p>
+
+    <div class="image-container">
+      <!-- 點擊圖片跳轉到 index.html (首頁) -->
+      <a href="index.html">
+        <img src="images/曾經的901.jpg" alt="曾經的901" />
+      </a>
+
+      <!-- 點擊圖片跳轉到 page3.html -->
+      <a href="page3.html">
+        <img src="images/現在的801.jpg" alt="現在的801" />
+      </a>
+    </div>
+
+    <br />
+
+    <!-- 回到首頁按鈕 -->
+    <a href="index.html">
+      <button>回到首頁</button>
+    </a>
+  </body>
+</html>

@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+  <head>
+    <meta charset="UTF-8" />
+    <title>第四頁</title>
+    <style>
+      body {
+        background-color: #f0f8ff;
+        font-family: Arial, sans-serif;
+        text-align: center;
+        padding: 30px;
+      }
+      img {
+        width: 300px;
+        margin: 20px;
+        border: 3px solid #aaa;
+        border-radius: 10px;
+        transition: transform 0.3s;
+      }
+      img:hover {
+        transform: scale(1.05);
+      }
+      video {
+        width: 500px;
+        margin: 20px;
+        border-radius: 10px;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>第四頁：成大台文系介紹</h1>
+
+    <!-- 顯示影片 -->
+    <video controls>
+      <source src="video/2023K3013.mp4" type="video/mp4" />
+      您的瀏覽器不支援影片播放。
+    </video>
+
+    <!-- 顯示圖片，點擊進入第五頁 -->
+    <div>
+      <p>
+        點選圖片可以閱讀趙逸帆老師FB發文：老師會被AI取代嗎？(白話字加中文對照)
+      </p>
+      <a href="page5.html">
+        <img
+          src="images/zhao_fb_post.jpg"
+          alt="趙逸帆老師FB發文：老師可以被AI取代嗎"
+        />
+      </a>
+    </div>
+  </body>
+</html>

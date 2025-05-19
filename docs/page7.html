@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>學習資源 - 第七頁</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=ZCOOL+KuaiLe&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      body {
+        background-color: #f3e8ff;
+        color: #4b0082;
+        font-family: "ZCOOL KuaiLe", sans-serif;
+        text-align: center;
+        padding: 40px;
+      }
+
+      h1 {
+        font-size: 36px;
+        margin-bottom: 30px;
+      }
+
+      .card-container {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 30px;
+        justify-content: center;
+        margin-bottom: 40px;
+      }
+
+      .card {
+        background-color: #d8b4fe;
+        width: 300px;
+        border-radius: 20px;
+        overflow: hidden;
+        transition: transform 0.3s, box-shadow 0.3s;
+        box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+      }
+
+      .card:hover {
+        transform: translateY(-10px);
+        box-shadow: 0 15px 30px rgba(0, 0, 0, 0.3);
+      }
+
+      .card img {
+        width: 100%;
+        height: 180px;
+        object-fit: cover;
+        border-top-left-radius: 20px;
+        border-top-right-radius: 20px;
+      }
+
+      .card-content {
+        padding: 20px;
+        color: #ffffff;
+      }
+
+      .card-content a {
+        color: #ffffff;
+        text-decoration: none;
+        font-size: 20px;
+      }
+
+      .card-content a:hover {
+        text-decoration: underline;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>學習資源</h1>
+    <div class="card-container">
+      <div class="card">
+        <img src="images/chinese.jpg" alt="四模文言檢討" />
+        <div class="card-content">
+          <a href="files/4模文言檢討.pdf" download>📄 4模文言檢討.pdf</a>
+        </div>
+      </div>
+      <div class="card">
+        <img src="images/Sakana.jpg" alt="801印尼簡介簡報" />
+        <div class="card-content">
+          <a href="files/801印尼簡介簡報.pptx" download>
+            📂 801印尼簡介簡報.pptx
+          </a>
+        </div>
+      </div>
+      <div class="card">
+        <img src="images/speech.jpg" alt="0515會考前的國文科作答小分享" />
+        <div class="card-content">
+          <a href="files/0515會考前的國文科作答小分享 上場講解版.pptx" download>
+            📂 0515會考前的國文科作答小分享.pptx
+          </a>
+        </div>
+      </div>
+
+      <!-- 新增的語言學習之路卡片 -->
+      <div class="card">
+        <a href="page8.html">
+          <img src="images/wordcloud.jpg" alt="我的語言學習之路" />
+        </a>
+        <div class="card-content">
+          <a href="page8.html">🌍 我的語言學習之路</a>
+        </div>
+      </div>
+    </div>
+    <a href="index.html">回到首頁</a>
+  </body>
+</html>

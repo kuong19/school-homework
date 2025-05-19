@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+  <head>
+    <meta charset="UTF-8" />
+    <title>第三頁</title>
+    <style>
+      body {
+        text-align: center;
+        font-family: Arial, sans-serif;
+      }
+
+      img {
+        width: 600px;
+        margin: 20px auto;
+        display: block;
+        border-radius: 12px;
+      }
+
+      .video-container {
+        display: flex;
+        justify-content: center;
+        gap: 20px;
+        flex-wrap: wrap;
+        margin-top: 20px;
+      }
+
+      .video-container video {
+        width: 400px;
+        border-radius: 12px;
+      }
+
+      button {
+        padding: 10px 20px;
+        font-size: 16px;
+        margin-top: 30px;
+        cursor: pointer;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>這是第三頁</h1>
+
+    <!-- 圖片 -->
+    <img src="images/大家一起吃pizza.jpg" alt="大家一起吃pizza" />
+
+    <!-- 並排影片 -->
+    <div class="video-container">
+      <video autoplay muted playsinline loop>
+        <source src="video/大隊接力手疊手.mp4" type="video/mp4" />
+      </video>
+      <video autoplay muted playsinline loop>
+        <source src="video/一起吃pizza.mp4" type="video/mp4" />
+      </video>
+    </div>
+
+    <!-- 回到第二頁 -->
+    <a href="page2.html">
+      <button>回到第二頁</button>
+    </a>
+  </body>
+</html>
